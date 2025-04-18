@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của Lê Cảnh Hùng</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-container">
+                <div class="profile-img">
+                    <img src="\image\my-avartar.jpg" alt="Ảnh đại diện">
+                </div>
+                <div class="stars">
+                    <div class="star star1"></div>
+                    <div class="star star2"></div>
+                    <div class="star star3"></div>
+                    <div class="star star4"></div>
+                    <div class="star star5"></div>
+                </div>
+            </div>
+            <h1 class="name">Lê Cảnh Hùng</h1>
+            <p class="title">Future Web Developer</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>0935718178</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>lecanhhung0410@gmail.com</span>
+                </div>
+            </div>
+            
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#about">Về tôi</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#career">Hướng đi nghề nghiệp</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                </ul>
+            </nav>
+            
+            <div class="social-links-sidebar">
+                <a href="https://www.facebook.com/canhhung.le.35110/" class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hung-le-canh-7953ab311/" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/HungLeCanh" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="about" class="about">
+                <h2>Về tôi</h2>
+                <div class="divider"></div>
+                <p>Xin chào! Tôi là một sinh viên đam mê xây dựng các trải nghiệm web hiện đại và tối ưu cho người dùng. Tôi có kinh nghiệm phát triển các ứng dụng web sử dụng công nghệ mới nhất, đồng thời luôn đặt hiệu suất và trải nghiệm người dùng lên hàng đầu.</p>
+                <p>Tôi đặc biệt thành thạo trong việc khai thác sức mạnh của AI để hỗ trợ quá trình phát triển phần mềm – từ việc viết prompt hiệu quả, quản lý và điều chỉnh mã do AI tạo ra, cho đến việc tích hợp AI vào quy trình làm việc nhằm tăng tốc và tối ưu hóa hiệu suất dự án.</p>
+                <p>Ngoài ra, tôi có khả năng tự học nhanh, thích nghi tốt với môi trường mới, cùng với kỹ năng giao tiếp hiệu quả. Tôi có thể sử dụng tiếng Anh ở mức trung cấp để nghe hiểu và giao tiếp trong công việc hàng ngày.</p>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Kỹ năng</h2>
+                <div class="divider"></div>
+                
+                <div class="tabs">
+                    <div class="tab-header">
+                        <div class="tab-btn active" data-tab="programming">Kỹ năng lập trình</div>
+                        <div class="tab-btn" data-tab="language">Kỹ năng ngoại ngữ</div>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="programming">
+                            <div class="skill-categories">
+                                <div class="skill-category">
+                                    <h3>Ngôn ngữ lập trình</h3>
+                                    <div class="skill-container">
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">JavaScript/TypeScript</div>
+                                                <div class="skill-level-text">Trung bình</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 70%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Sử dụng TypeScript trong dự án Next.js, xử lý state và props, làm việc với API
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">Java (OOP)</div>
+                                                <div class="skill-level-text">Trung bình</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 60%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Hiểu về OOP, đã phát triển nhiều dự án nhỏ sử dụng Java
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">C++</div>
+                                                <div class="skill-level-text">Cơ bản</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 45%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Hiểu biết cơ bản về cú pháp và cấu trúc dữ liệu
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <h3>Công nghệ Web</h3>
+                                    <div class="skill-container">
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">Next.js</div>
+                                                <div class="skill-level-text">Trung bình</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 65%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Đã phát triển dự án đầy đủ chức năng sử dụng Next.js với TypeScript
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">RESTful API</div>
+                                                <div class="skill-level-text">Trung bình</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 60%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Kinh nghiệm viết API CRUD, hiểu cách xử lý dữ liệu JSON
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">HTML5</div>
+                                                <div class="skill-level-text">Cơ bản</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 55%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Hiểu và áp dụng được các thẻ HTML semantics, cấu trúc trang web
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="skill">
+                                            <div class="skill-header">
+                                                <div class="skill-name">CSS3</div>
+                                                <div class="skill-level-text">Cơ bản</div>
+                                            </div>
+                                            <div class="skill-bar">
+                                                <div class="skill-level" style="width: 50%"></div>
+                                            </div>
+                                            <div class="skill-description">
+                                                Kiến thức cơ bản về layout, responsive design (không phải designer)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="language">
+                            <div class="skill-container">
+                                <div class="skill">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Tiếng Anh - Nghe</div>
+                                        <div class="skill-level-text">Khá tốt - Giao tiếp cơ bản</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Tiếng Anh - Nói</div>
+                                        <div class="skill-level-text">Khá - Giao tiếp cơ bản</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Tiếng Anh - Đọc</div>
+                                        <div class="skill-level-text">Khá - Đọc hiểu</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Tiếng Anh - Viết</div>
+                                        <div class="skill-level-text">Trung bình</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="career" class="career">
+                <h2>Hướng đi nghề nghiệp</h2>
+                <div class="divider"></div>
+                <div class="career-path">
+                    <div class="career-item">
+                        <div class="career-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="career-content">
+                            <h3>Web Developer</h3>
+                            <p>Tôi đang hướng đến việc trở thành một Web Developer chuyên nghiệp, tập trung vào phát triển các ứng dụng web sử dụng công nghệ hiện đại như React.js và Next.js.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects" onclick="window.location.href=`https://my-foods-review-website.vercel.app/`" style="cursor: pointer;">
+                <h2>Dự án</h2>
+                <div class="divider"></div>
+                <div class="project-container">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="\image\foodpin.png" alt="Dự án Next.js">
+                        </div>
+                        <div class="project-info">
+                            <h3>Dự án Next.js FoodPin</h3>
+                            <p>Một ứng dụng web cho phép người dùng khám phá và tìm kiếm các món ăn trong khu vực của họ và cho phép các doanh nghiệp F&B tạo tài khoản doanh nghiệp và đăng thực đơn để quảng bá dịch vụ của mình.</p>
+                            <div class="project-tech">
+                                <span>Next.js 13</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>Next.js API Routes</span>
+                                <span>Prisma ORM</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 Portfolio của Lê Cảnh Hùng. Tất cả các quyền được bảo lưu.</p>
+            </footer>
+        </main>
+    </div>
+    
+    <script>
+        // Tab functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons and tab panes
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Show corresponding tab pane
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
